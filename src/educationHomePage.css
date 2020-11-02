@@ -1,0 +1,110 @@
+.educationPageLayout{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+    /*min-width: 200vh; */
+}
+  
+.educationPageBody{
+    background-color: white;
+    display: flex;
+    flex: 3;
+    align-items: center; 
+    justify-content: space-between;
+    margin: 50px;
+}
+  
+.educationPageBody img{
+    width: 200px;
+    margin: 140px;
+    margin-bottom: 10px;
+}  
+  
+.educationPageBody h1{
+    cursor: pointer;
+    display: block;
+    align-items: center;
+}  
+ 
+  
+  
+.educationPodcastIcon{
+    background-color: rgba(249, 207, 30, 0.75);
+    text-align: justify;
+    width: 30%;
+    border-radius: 30px; 
+}
+
+.educationPodcastIcon h1{
+    font-size: 80px;
+   
+}
+
+.educationPodcastIcon h1:hover{
+    background-color: lightgray;
+}
+
+.educationVideoIcon{
+    background-color: rgba(249, 207, 30, 0.75);
+    text-align: justify;
+    width: 30%;
+    border-radius: 30px; 
+}
+
+.educationVideoIcon h1{
+    font-size: 80px;
+    
+}
+
+.educationVideoIcon h1:hover{
+    background-color: lightgray;
+}
+  
+.educationWriteIcon{
+    background-color: rgba(249, 207, 30, 0.75);
+    width: 30%;
+    border-radius: 30px; 
+}
+
+.educationWriteIcon h1{
+    font-size: 80px;
+}
+
+.educationWriteIcon h1:hover{
+    background-color: lightgray;
+}
+  
+  /*This is for the search icon  */
+.searchContainer input{
+    margin-top: 0px;
+    background-color: lightgray;
+}
+
+.educationPageLayout input[type=text] {
+    padding: 6px;
+    margin-left: 55px;
+    font-size: 17px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+  
+.educationPageLayout button{
+    background-color: rgb(51, 51, 133);
+    color: white;
+    position: absolute;
+    margin-top: 220px; 
+    margin-left: 1420px;
+    width: 200px;
+    font-size: 29px;
+    border-radius: 5px;
+}
+
+.educationPageLayout h1{
+    text-align: center;
+    
+}
+
+
+
+/* Here */

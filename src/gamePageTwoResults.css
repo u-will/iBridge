@@ -1,0 +1,187 @@
+
+h1, h2, h3, p {
+    color: black;
+}
+
+.action {
+    margin-bottom: 100px;
+}
+
+.todos {
+    list-style: none;
+    background: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.todos>li {
+    color: black;
+    background-color: white;
+    text-align: left;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.task {
+    border-radius: 15px;
+    border: 3px solid grey;
+    padding: 20px; 
+    background-color: #F0F0F0;
+    flex-grow: 5;
+}
+
+.todos>li:hover:not(.active) {
+    background-color: white;
+}
+
+.content {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.content .resultsSection h1{
+    text-align: left;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-size: 40px;
+}
+
+
+body {
+    font-family: Raleway Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+}
+
+.button-default {
+    display: inline-block;
+    border: 2px solid #244993;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.button-default:hover {
+    background: #244993;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+.plus {
+    background: none;
+    border: none;
+    display: inline-block;
+}    
+
+.profile-img {
+    border-radius: 50%;
+}
+.see-tasks {
+    float: right;
+}
+
+.see-tasks> * {
+    display: inline-block;
+    margin: 10px;
+}
+
+.see-tasks>p {
+    font-weight: bold;
+}
+
+.connect {
+    display: inline-flex;
+    height: 200px;
+}
+
+.note {
+    padding-left: 200px;
+    padding-top: 0px;
+}
+
+.profile-button {
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+.pLearningMore {
+    color:black;
+    text-align:right;
+    padding: 10px 50px;
+    font-size: 25px;
+}
+
+.LearnMore {
+    /* display: flex;
+    flex-direction: row; */
+    /* align-content: center; */
+    height: 160px;
+    display: inline-block;
+    float: right;
+    /* justify-content: right; */
+}
+
+#wrapper {
+    overflow: auto;
+}
+
+.LearnMore p{
+/* text-align: right; */
+/* position: relative; */
+/* font-size: 20px; */
+/* margin-right: 100px; */
+align-self: center;
+font-weight: bold;
+display: inline;
+}
+
+.button {
+    background-color: #244993;
+    border-radius: 5px;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 100px 75px;
+    transition-duration: 0.4s;
+    cursor: pointer;  
+    width:20%;
+    
+}
+
+.Edubutton {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #244993;
+    align-self: center;
+    /* position: absolute; */
+    /* right: 0px; */
+    display: inline;
+    width: 200px;
+    /* margin-top: 50px; */
+  }
+
+.Edubutton:hover {
+    background-color: #244993;
+    color: white;
+  }

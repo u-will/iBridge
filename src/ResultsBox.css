@@ -1,0 +1,72 @@
+.Results {
+    background-color: rgba(61, 165, 217, 0.6);
+      padding: 0 2em 1em;
+      border: 10px solid #3DA5D9;
+    border-radius: 20px;
+      margin:1em;
+      color: black;
+      font-size: small;
+      width:75%;
+      margin-left: auto;
+      margin-right: auto;
+      /* justify-content: center;
+      align-items: center; */
+  }
+  .Results div{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .AnswerMessage {
+    background-color: white;
+      padding: 0 2em 1em;
+    border-radius: 10px;
+      margin:1em;
+      color: black;
+      font-size: small;
+      
+  }
+  .AnswerMessage div{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+
+  .CorrectAnswerText {
+    background-color: white;
+      color: #9CCB3B;
+      font-size: 18px;
+      display:flex;
+      flex-direction: row;
+    }
+
+    .CorrectAnswer {
+        background-color: white;
+          color: black;
+          font-size: 18px;
+          display:flex;
+          flex-direction: row;
+        }
+
+  .Results h1 {
+    text-align: left;
+    font-size: 35px;
+  }
+
+.ScoreMessage {
+      text-align: center;
+      color: white;
+      font-size: 45px;
+  }
+
+.ScoreNumber {
+    display: inline-block;
+    font-size: 60px;
+    color: #244993;
+}
+
+.pAnswerMessage {
+    font-size: 18px;
+}

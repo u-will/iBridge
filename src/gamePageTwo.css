@@ -1,0 +1,139 @@
+.QuestionNumber {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.LevelTwo {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.LevelTwoInstructions {
+    text-align: center;
+}
+
+.CommunicationTechnique {
+    text-align: center;
+}
+
+.Name{
+    text-align: center;
+}
+
+.AnswerContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.AnswerContainer .AnswerOption {
+    width: 50%
+}
+
+ 
+#pictureOne {
+    /* width: 25%;
+    height:25%; */
+    padding: 60px 0px 0px 0px;
+    text-align: center;
+}
+
+#pictureTwo {
+    /* width:25%;
+    height: 25%; */
+    /* padding: 0px 0px 0px 0px; */
+    text-align: center;
+}
+
+  .ChatContainer {
+        display: flex;
+        justify-content: center;
+}
+
+.gamePageTwoGame {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.greenBridge{
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+    background: #97EF79;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.greenBridge img {
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.greenBridge p{
+    margin-left: 160px;
+    margin-top: -95px;
+    font-weight: bold;
+}
+
+.button-default-game {
+    display: inline-block;
+    border: 2px solid #244993;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    /* margin: 0; */
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-top: -50px;
+    margin-left: 1500px;
+    margin-bottom: 50px;
+}
+
+.button-default-game:hover {
+    background: #244993;
+    color: white;
+}
+
+.button-default-game-submit {
+    display: inline-block;
+    border: 2px solid #244993;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    /* margin: 0; */
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-top: -50px;
+    margin-left: 1475px;
+    margin-bottom: 50px;
+}
+
+.button-default-game-submit:hover {
+    background: #244993;
+    color: white;
+}
+
+.parentNext{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nextButton {
+    margin-left: 80%;
+    margin-top: 5%
+}

@@ -1,0 +1,27 @@
+.buttonTrue{
+    width: calc(100% - (20px * 2));
+    margin: 20px;
+    background: rgba(240, 240, 240, 0.4);
+    border-radius: 5px;
+    border-color: black;
+    padding: 1rem 2rem;
+    font-family: sans-serif;
+    font-size: 16px;
+    box-shadow: 0 2px lightgrey;
+    color: black;
+  }
+  
+  .buttonFalse{
+    width: calc(100% - (20px * 2));
+    margin: 20px;
+    background: rgba(88, 192, 243, 0.3);
+    border-radius: 5px;
+    border-color: #244993;
+    border-width: medium;
+    padding: 1rem 2rem;
+    font-family: sans-serif;
+    font-size: 16px;
+    box-shadow: 0 2px lightgrey;
+    color: black;
+
+  }

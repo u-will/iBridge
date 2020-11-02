@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+hr {
+    background-color: #244993;
+    border-style: none;
+    height: 3px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "to-do in-progress done";
+    grid-gap: 20px;
+    padding: 0 100px;
+}
+
+.to-do {
+    grid-area: to-do;
+}
+
+.in-progress {
+    grid-area: in-progress;
+}
+
+.done {
+    grid-area: done;
+}
+
+.column {
+    background-color: #F9CF1E;
+    border-radius: 5px;
+    height: 500px;
+    padding: 10px;
+}
+
+.column h2 {
+    margin-bottom: 20px;
+}
+
+.new-item {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-areas: "add-button input";
+    grid-gap: 10px;
+    font-size: 20px;
+}
+
+.add-button {
+    grid-area: add-button;
+}
+
+.input {
+    grid-area: input;
+    display: grid;
+    grid-template-rows: 1fr 5px;
+    height: 40px;
+    text-emphasis: size 3px; 
+}
+
+.output {
+    margin-top: 3mm;
+    grid-area: input;
+    display: grid;
+    grid-template-rows: 1fr 5px;
+    height: 40px;
+    text-emphasis: size 3px; 
+}
+
+
+.new-item button {
+    background: none;
+    border: none;
+}
+
+.new-item button:active,
+.new-item button:visited {
+    background: none;
+    border: none;
+}
+
+
+.confirmButton{
+    position: relative;
+   left: 7.5cm;
+   padding: 3px 20px;
+    background-color: #97EF79;
+    border: 1px solid orange;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 40px;
+    font-size: 0.7em;
+    margin-top: 13cm;
+}
+.confirmButton:hover {
+    transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+}

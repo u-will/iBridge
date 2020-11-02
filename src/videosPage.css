@@ -1,0 +1,105 @@
+.videosPageLayout{
+    /* background-color: maroon; */
+    color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;   
+}
+
+.videosPageBody{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 740px;
+    color: black;
+}
+
+.searchContainer input{
+    background-color: black;
+}
+
+.videosPageBody input[type=text] {
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 55px;
+    font-size: 17px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+  
+.videosPageBody button{
+    background-color: rgb(51, 51, 133);
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    margin-top: 10px; 
+    margin-left: 1420px;
+    width: 200px;
+    font-size: 29px;
+    border-radius: 5px;
+}
+
+.videosPageBody h1{
+    text-align: center;
+}
+
+.videosPageBody .container {
+    background-color: darkgrey;
+    padding: 10px; 
+    margin: 60px ; 
+    margin-bottom: 10px;
+    height: 290px; 
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0px 20px 50px grey;
+    position: relative;
+}
+
+.container p{
+    cursor: pointer;
+
+    /* Here */
+    /* position: relative; */
+    display: inline-block;
+    border-bottom: 1px dotted black;
+     
+}
+
+.container p:hover{
+ background-color: lightgrey;
+}
+
+.container h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 20px;
+    max-width: 900px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.videosPageBody .container video{
+    width: 400px;
+    height: 415px; 
+    float: left;
+    margin-top: -103px;
+    margin-right: 60px;
+    margin-left: -10px;
+    cursor: pointer;
+    
+    /* border-radius: 20px; */
+} 
+
+.container img{
+    width: 2%;
+    cursor: pointer;
+}
+
+.container .commentIcon{
+    margin-left: 170px;
+    height: 40px;
+}
+
+/* here */
+

@@ -1,0 +1,49 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9CCB3B;
+  width: 100%;
+}
+
+.NavBar {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width:100%;
+  /* position: fixed; */
+}
+
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li > span {
+  font-weight: bold;
+}
+
+.NavButton{
+  width: 70%;
+  margin: auto;
+}
+
+.h1-navigation {
+    color: white;
+    /* text-align:center; */
+    border: 1px solid white;
+    display: inline-block;
+}
+
+li:hover:not(.active) {
+  background-color: #4CAF50;
+}
+
+.active {
+  background-color: #4CAF50;
+}

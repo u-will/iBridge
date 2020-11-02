@@ -1,0 +1,117 @@
+.userStoriesPageLayout{
+    /* background-color: maroon; */
+    color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;   
+}
+
+.userStoriesPageBody{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 740px;
+    color: black;
+}
+
+.searchContainer input{
+    background-color: black;
+}
+
+.userStoriesPageBody input[type=text] {
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 55px;
+    font-size: 17px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+  
+.userStoriesPageBody button{
+    background-color: rgb(51, 51, 133);
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    margin-top: 10px; 
+    margin-left: 1420px;
+    width: 200px;
+    font-size: 29px;
+    border-radius: 5px;
+}
+
+.userStoriesPageBody h1{
+    text-align: center;
+}
+
+.userStoriesPageBody .container {
+    background-color: darkgrey;
+    padding: 10px; 
+    margin: 60px ; 
+    margin-bottom: 10px;
+    /* height: 210px; */
+    height: 290px; 
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0px 20px 50px grey;
+}
+
+.container p{
+    cursor: pointer;
+
+    /* Here */
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin-left: 90px;
+}
+
+.container h1{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 350px;
+    max-width: 850px;
+}
+
+.container .about{
+    font-size: 23px;
+}
+
+.container p:hover{
+ background-color: lightgrey;
+}
+
+.podcastsPageBody .container img{
+    width: 400px;
+    height: 415px; 
+    float: left;
+    margin-top: -103px;
+    margin-right: 60px;
+    margin-left: -10px;
+    cursor: pointer;
+}  
+
+.container .likeButton{
+    width: 2%;
+    cursor: pointer;
+}
+
+.container .userStoriesLogo{
+    width: 250px;
+    height: 230px; 
+    float: left;
+    margin-top: -10px;
+    margin-right: 60px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+
+/*
+.container .commentIcon{
+    margin-left: 170px;
+    height: 40px;
+} */
+
+
